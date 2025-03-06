@@ -12,6 +12,20 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        lemonada: ["Lemonada", "cursive"],
+        yesteryear: ["Yesteryear", "serif"],
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+        nav1: { max: "1075px" },
+        nav2: { max: "950px" }, // Добавленная контрольная точка
+        nav3: { max: "900px" },
+      },
     },
   },
   plugins: [],
