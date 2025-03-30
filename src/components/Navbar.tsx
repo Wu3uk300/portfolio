@@ -53,7 +53,7 @@ const Navbar = () => {
 
   if (isMobile) {
     return (
-      <div className="w-full bg-[#242424] text-[14px] text-[#FFFFFF] fixed bottom-[-3] left-0 right-0 flex items-end justify-center border-t-[3px] z-[999]">
+      <div className="w-full bg-[#242424] text-[14px] text-[#FFFFFF] fixed bottom-0 left-0 right-0 flex items-end justify-center border-t-[3px] z-[999]">
         <div
           className={isSmall ? "flex gap-7 mt-2 mb-2" : "flex gap-10 mt-2 mb-2"}
         >
@@ -133,28 +133,28 @@ const Navbar = () => {
               className="relative text-lg group text-[#000000] transition-all duration-300"
             >
               about
-              <span className="absolute bottom-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
+              <span className="absolute top-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
             </button>
             <button
               onClick={() => scrollToSection("projects")}
               className="relative text-lg group text-[#000000] transition-all duration-300"
             >
               projects
-              <span className="absolute bottom-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
+              <span className="absolute top-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
             </button>
             <button
               onClick={() => scrollToSection("technologies")}
               className="relative text-lg group text-[#000000] transition-all duration-300"
             >
               technologies
-              <span className="absolute bottom-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
+              <span className="absolute top-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="relative text-lg group text-[#000000] transition-all duration-300"
             >
               contact
-              <span className="absolute bottom-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
+              <span className="absolute top-[-4] left-0 w-[100%] h-[3px] bg-gradient-to-r from-[#FFD700] to-[#FFD700] transition-transform duration-300 scale-x-0 group-hover:scale-x-100"></span>
             </button>
           </div>
         </div>
